@@ -46,7 +46,7 @@ module.exports = {
           );
       
           if (!user) {
-            return res.status(404).json({ message: 'No user found matches this id!' });
+            return res.status(404).json({ message: 'No user matches this id!' });
           }
       
           res.json({ thought, user });
@@ -59,10 +59,10 @@ module.exports = {
           const thought = await Thought.findOneAndDelete({ _id: req.params.thoughtId });
     
           if (!thought) {
-            return res.status(404).json({ message: `Sorry can't find a thought with that ID` })
+            return res.status(404).json({ message: `No thought matched with that ID` })
           }
     
-          res.json({ message: 'Your thought was successfully deleted' });
+          res.json({ message: 'Your thought was terminated' });
         } catch (err) {
           console.log(err);
           res.status(500).json(err);
@@ -120,7 +120,7 @@ module.exports = {
           if (!thought) {
             return res
               .status(404)
-              .json({ message: 'No thought found matched that ID :(' });
+              .json({ message: 'No thought matched that ID :(' });
           }
     
           res.json(thought);
