@@ -1,5 +1,16 @@
 # Miss New Media
 
+## Table Of Contents
+
+- [License](#license)
+- [Description](#description)
+- [Install](#install)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Testing](#testing)
+- [Video Walkthrough](#video-walkthrough)
+- [Questions](#questions)
+
 ## License: 
  None
 
@@ -16,7 +27,11 @@ The usage for this project is to  test my knowledge of creating a database and u
 If you want to contribute to this project you can either email me or message me directly on github
 
 ## Testing
-In order to test this project once you've cloned it, use a simple npm i to download all the dependecies. Then open up mongoDB and connect to it. Do a npm run start then open up insomnia and create a new collection. In the new insomnia collection use localhost:3001/api to start testing the routes 
+In order to test this project once you've cloned it, use a simple npm i to download all the dependecies. Then open up mongoDB and connect to it. Do a npm run start then open up insomnia and create a new collection. In the new insomnia collection use localhost:3001/api to start testing the routes
+
+## Video Walkthrough
+
+[Video Link](https://drive.google.com/file/d/1YvoXf4jDMIVbQTz5PU3gEyGralQly51j/view?usp=drive_link)
 
 ## Questions
 If you have any questions contact me at perrywayne39@gmail.com or you can reach me at www.github.com/TheQuestioningCake
