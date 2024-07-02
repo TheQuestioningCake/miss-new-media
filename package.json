@@ -1,4 +1,8 @@
-{
+{"scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "seed": "node utils/seeds"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.4.3",
